@@ -6,13 +6,13 @@ A collection of colorscripts I've accumulated over time. Includes over 52 beauti
 * ```python 2 or 3``` (required for ```print-colors.py``` and ```unowns.py```)
 * ```perl``` (required for ```color-support1.pl```)
 
-## Installing color-scripts
+## Installing shell-color-scripts
 ```
-git clone https://github.com/sandkoan/color-scripts.git
-cd color-scripts
-rm -rf /opt/color-scripts || return 1
-sudo mkdir -p /opt/color-scripts/colorscripts || return 1
-sudo cp -rf colorscripts/* /opt/color-scripts/colorscripts
+git clone https://github.com/sandkoan/shell-shell-color-scripts.git
+cd shell-color-scripts
+rm -rf /opt/shell-color-scripts || return 1
+sudo mkdir -p /opt/shell-color-scripts/colorscripts || return 1
+sudo cp -rf colorscripts/* /opt/shell-color-scripts/colorscripts
 sudo cp colorscript.sh /usr/bin/colorscript
 ```
 ## Usage
@@ -26,10 +26,10 @@ Usage: colorscript [OPTION] [SCRIPT NAME/INDEX]
   -r, --random, random	Run a random color script.
   -e, --exec, exec    	Run a spesific color script by SCRIPT NAME or INDEX.
 ```
-## The Scripts Are Located in /opt/color-scripts/colorscripts
+## The Scripts Are Located in /opt/shell-color-scripts/colorscripts
 
-The source for color-scripts is placed in: /opt/color-scripts/colorscripts.
-You might have to add /opt/color-scripts/ to your PATH in you ```.bashrc``` or ```.zshrc``` with ```PATH=~/opt/color-scripts/:$PATH```.
+The source for shell-color-scripts is placed in: /opt/shell-color-scripts/colorscripts.
+You might have to add /opt/shell-color-scripts/ to your PATH in you ```.bashrc``` or ```.zshrc``` with ```PATH=~/opt/shell-color-scripts/:$PATH```.
 
 For even more fun, add the following line to your ```.bashrc``` or ```.zshrc``` and you will run a random color script each time you open a terminal:
 ```
