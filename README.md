@@ -14,8 +14,11 @@ rm -rf ~/bin/shell-color-scripts || return 1
 mkdir -p ~/bin/shell-color-scripts
 cp -rf colorscripts ~/bin/shell-color-scripts/
 cp colorscript.sh ~/bin/shell-color-scripts/colorscript
-PATH=$PATH:~/bin/shell-color-scripts:~/bin/shell-color-scripts/colorscripts
 ```
+
+Add ```colorscript and colorscripts``` to ```PATH``` in your ```.bashrc or .zshrc``` with:
+```PATH=$PATH:~/bin/shell-color-scripts:~/bin/shell-color-scripts/colorscripts```
+
 ## Usage
 ```
 colorscript --help
