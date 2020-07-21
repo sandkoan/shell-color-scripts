@@ -8,7 +8,7 @@ A collection of colorscripts I've accumulated over time. Includes over 52 beauti
 
 ## Installing shell-color-scripts
 ```
-git clone https://github.com/sandkoan/shell-shell-color-scripts.git
+git clone https://github.com/sandkoan/shell-color-scripts.git
 cd shell-color-scripts
 rm -rf /opt/shell-color-scripts || return 1
 sudo mkdir -p /opt/shell-color-scripts/colorscripts || return 1
