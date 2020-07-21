@@ -11,9 +11,10 @@ A collection of color scripts I've accumulated over time. Includes over 54 beaut
 git clone https://github.com/sandkoan/shell-color-scripts.git
 cd shell-color-scripts
 rm -rf ~/bin/shell-color-scripts || return 1
-mkdir -p ~/bin/shell-color-scripts/colorscripts || return 1
+mkdir -p ~/bin/shell-color-scripts
 cp -rf colorscripts ~/bin/shell-color-scripts/
 cp colorscript.sh ~/bin/shell-color-scripts/colorscript
+PATH=$PATH:~/bin/shell-color-scripts:~/bin/shell-color-scripts/colorscripts
 ```
 ## Usage
 ```
