@@ -1,5 +1,5 @@
 # Shell Color Scripts
-A collection of colorscripts I've accumulated over time. Includes over 52 beautiful terminal color scripts.
+A collection of color scripts I've accumulated over time. Includes over 52 beautiful terminal color scripts.
 
 ## Dependencies
 * ```bash```
@@ -13,7 +13,8 @@ cd shell-color-scripts
 sudo rm -rf /opt/shell-color-scripts || return 1
 sudo mkdir -p /opt/shell-color-scripts/colorscripts || return 1
 sudo cp -rf colorscripts/* /opt/shell-color-scripts/colorscripts
-sudo cp colorscript.sh /usr/bin/colorscript
+mkdir -p ~/bin
+sudo cp colorscript.sh ~/bin/colorscript
 ```
 ## Usage
 ```
@@ -29,7 +30,9 @@ Usage: colorscript [OPTION] [SCRIPT NAME/INDEX]
 ## The Scripts Are Located in /opt/shell-color-scripts/colorscripts
 
 The source for shell-color-scripts is placed in: /opt/shell-color-scripts/colorscripts.
-You might have to add /opt/shell-color-scripts/ to your PATH in you ```.bashrc``` or ```.zshrc``` with ```PATH=~/opt/shell-color-scripts/:$PATH```.
+You might have to add /opt/shell-color-scripts/ to your PATH in you ```.bashrc``` or ```.zshrc``` with 
+```PATH=$PATH:~/opt/shell-color-scripts/:~/bin
+```.
 
 For even more fun, add the following line to your ```.bashrc``` or ```.zshrc``` and you will run a random color script each time you open a terminal:
 ```
