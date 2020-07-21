@@ -13,7 +13,7 @@ cd shell-color-scripts
 sudo rm -rf /opt/shell-color-scripts || return 1
 sudo mkdir -p /opt/shell-color-scripts/colorscripts || return 1
 sudo cp -rf colorscripts/* /opt/shell-color-scripts/colorscripts
-sudo cp colorscript /usr/bin/colorscript
+sudo cp colorscript.sh /usr/bin/colorscript
 ```
 ## Usage
 ```
