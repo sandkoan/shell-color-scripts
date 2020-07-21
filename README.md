@@ -10,10 +10,10 @@ A collection of colorscripts I've accumulated over time. Includes over 52 beauti
 ```
 git clone https://github.com/sandkoan/shell-color-scripts.git
 cd shell-color-scripts
-rm -rf /opt/shell-color-scripts || return 1
+sudo rm -rf /opt/shell-color-scripts || return 1
 sudo mkdir -p /opt/shell-color-scripts/colorscripts || return 1
 sudo cp -rf colorscripts/* /opt/shell-color-scripts/colorscripts
-sudo cp colorscript.sh /usr/bin/colorscript
+sudo cp colorscript /usr/bin/colorscript
 ```
 ## Usage
 ```
