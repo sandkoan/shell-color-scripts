@@ -17,6 +17,7 @@ cp colorscript.sh ~/bin/shell-color-scripts/colorscript
 ```
 
 Add ```colorscript and colorscripts``` to ```PATH``` in your ```.bashrc or .zshrc``` with:
+
 ```PATH=$PATH:~/bin/shell-color-scripts:~/bin/shell-color-scripts/colorscripts```
 
 ## Usage
