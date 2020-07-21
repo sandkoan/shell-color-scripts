@@ -3,7 +3,7 @@ A collection of color scripts I've accumulated over time. Includes over 54 beaut
 
 ## Dependencies
 * ```bash```
-* ```python 2 or 3``` (required for ```print-colors.py``` and ```unowns.py```)
+* ```python 2``` or ```3``` (required for ```print-colors.py``` and ```unowns.py```)
 * ```perl``` (required for ```color-support1.pl```)
 
 ## Installing shell-color-scripts
@@ -16,9 +16,13 @@ cp -rf colorscripts ~/bin/shell-color-scripts/
 cp colorscript.sh ~/bin/shell-color-scripts/colorscript
 ```
 
-Add ```colorscript and colorscripts``` to ```PATH``` in your ```.bashrc or .zshrc``` with:
-
-```PATH=$PATH:~/bin/shell-color-scripts:~/bin/shell-color-scripts/colorscripts```
+Add ```colorscript``` and ```colorscripts``` to ```PATH``` in your ```.bashrc``` or ```.zshrc``` with
+```
+# bash
+echo PATH=$PATH:~/bin/shell-color-scripts:~/bin/shell-color-scripts/colorscripts >> ~/.bashrc 
+# zsh
+echo PATH=$PATH:~/bin/shell-color-scripts:~/bin/shell-color-scripts/colorscripts >> ~/.zshrc 
+```
 
 ## Usage
 ```
@@ -31,13 +35,9 @@ Usage: colorscript [OPTION] [SCRIPT NAME/INDEX]
   -r, --random, random	Run a random color script.
   -e, --exec, exec    	Run a spesific color script by SCRIPT NAME or INDEX.
 ```
-## The scripts Are Located in ~/bin/shell-color-scripts/colorscripts
+## Script Location 
 
 The source for shell-color-scripts is placed in: ```~/bin/shell-color-scripts/colorscripts```.
-You might have to add ```~/bin``` to your PATH in you ```.bashrc``` or ```.zshrc``` with 
-```
-PATH=$PATH:~/bin
-```.
 
 For even more fun, add the following line to your ```.bashrc``` or ```.zshrc``` and you will run a random color script each time you open a terminal:
 ```
