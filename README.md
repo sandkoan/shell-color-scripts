@@ -1,4 +1,4 @@
-# Color Scripts
+# Shell Color Scripts
 A collection of colorscripts I've accumulated over time. Includes over 52 beautiful terminal color scripts.
 
 ## Dependencies
