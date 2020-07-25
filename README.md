@@ -38,7 +38,7 @@ Usage: colorscript [OPTION] [SCRIPT NAME/INDEX]
 
 The source for shell-color-scripts is placed in: ```~/bin/shell-color-scripts/colorscripts```.
 
-For even more fun, add the following line to your ```.bashrc``` or ```.zshrc``` and you will run a random color script each time you open a terminal:
+For even more fun, add the following line to your ```.bashrc``` or ```.zshrc``` to run a random color script each time you open a terminal:
 ```
 ### RANDOM COLOR SCRIPT ###
 colorscript random
