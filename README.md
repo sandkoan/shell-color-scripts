@@ -4,7 +4,6 @@ A collection of color scripts I've written and accumulated over time. Includes o
 ## Dependencies
 * ```bash```
 * ```python 2``` or ```3``` (required for ```print-colors.py``` and ```unowns.py```)
-* ```perl``` (required for ```color-support1.pl```)
 
 ## Installing shell-color-scripts
 ```
