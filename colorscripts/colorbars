@@ -1,7 +1,6 @@
 #!/bin/sh
 #
 # colorbars - smpte color bars in sh
-# http://git.io/colorbars 
 
 echo
 
