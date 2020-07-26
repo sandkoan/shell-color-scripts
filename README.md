@@ -6,6 +6,8 @@ A collection of color scripts I've written and accumulated over time. Includes o
 * ```python 2``` or ```3``` (required for ```print-colors.py``` and ```unowns.py```)
 
 ## Installing shell-color-scripts
+```bash <(curl -s https://raw.githubusercontent.com/sandkoan/shell-color-scripts/master/install.sh)```
+### Manual Install
 ```
 git clone https://github.com/sandkoan/shell-color-scripts.git
 cd shell-color-scripts
