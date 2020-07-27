@@ -7,9 +7,11 @@ A collection of color scripts I've written and accumulated over time. Includes o
 
 ## Installing shell-color-scripts
 ### Bash Script Install
-```bash <(curl -s https://raw.githubusercontent.com/sandkoan/shell-color-scripts/master/install.sh)```
-### Manual Install
+```bash
+bash <(curl -s https://raw.githubusercontent.com/sandkoan/shell-color-scripts/master/install.sh)
 ```
+### Manual Install
+```bash
 git clone https://github.com/sandkoan/shell-color-scripts.git
 cd shell-color-scripts
 rm -rf ~/bin/shell-color-scripts || return 1
@@ -19,7 +21,7 @@ cp colorscript.sh ~/bin/shell-color-scripts/colorscript
 ```
 
 Add ```colorscript``` and ```colorscripts``` to ```PATH``` in your ```.bashrc``` or ```.zshrc``` with
-```
+```bash
 # bash
 echo PATH=$PATH:~/bin/shell-color-scripts:~/bin/shell-color-scripts/colorscripts >> ~/.bashrc 
 # zsh
