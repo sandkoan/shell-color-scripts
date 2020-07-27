@@ -1,11 +1,10 @@
 # Shell Color Scripts
 A collection of color scripts I've written and accumulated over time. Includes over 54 beautiful terminal color scripts.
 
-## Dependencies
+## Install
+### Dependencies
 * ```bash```
 * ```python 2 or 3``` (required for ```print-colors.py``` and ```unowns.py```)
-
-## Installing shell-color-scripts
 ### Bash Script Install
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/sandkoan/shell-color-scripts/master/install.sh)
