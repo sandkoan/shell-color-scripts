@@ -10,7 +10,7 @@ mkdir -p ~/bin/shell-color-scripts
 cp -rf colorscripts ~/bin/shell-color-scripts/
 cp colorscript ~/bin/shell-color-scripts/colorscript
 cd $HOME
-rm -rf shell-color-scripts
+# rm -rf shell-color-scripts
 
 if [ "$0" == "zsh" ]
 then
