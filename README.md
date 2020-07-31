@@ -1,4 +1,5 @@
 # Shell Color Scripts
+![colorscripts picture](assets/screenshot.png)
 A collection of color scripts I've written and accumulated over time. Includes over 54 beautiful terminal color scripts.
 
 ## Install
