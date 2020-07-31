@@ -1,7 +1,6 @@
 # Shell Color Scripts
 ![colorscripts picture](screenshot.png)
-A collection of color scripts I've written and accumulated over time. Includes over 54 beautiful terminal color scripts.
-
+A collection of color scripts I've written and accumulated over time.
 ## Install
 ### Dependencies
 * ```bash```
