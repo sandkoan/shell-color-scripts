@@ -11,12 +11,12 @@ rm -rf ~/bin/shell-color-scripts || return 1
 echo
 echo 'Removing any existing installation of shell-color-scripts...'
 
+echo "Mking $HOME/bin/shell-color-scripts directory..."
 mkdir -p ~/bin/shell-color-scripts
-echo Making $HOME/bin/shell-color-scripts directory...
 
 cp -rf colorscripts ~/bin/shell-color-scripts/
 cp colorscript ~/bin/shell-color-scripts/colorscript
-echo Copying colorscripts to $HOME/bin ...
+echo Copying colorscripts to "HOME/bin ..."
 
 cd $HOME
 # rm -rf shell-color-scripts
@@ -30,5 +30,5 @@ echo 'PATH=$PATH:~/bin/shell-color-scripts:~/bin/shell-color-scripts/colorscript
 echo 
 echo "To run a random color script each time you open a terminal, add the following to your shell configuration file:"
 printf " ### RANDOM COLOR SCRIPT ### \ncolorscript random "
-echo
+printf "\n"
 printf "To get help, run: \ncolorscript --help"
