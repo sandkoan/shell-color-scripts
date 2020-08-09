@@ -21,8 +21,8 @@ cd $HOME
 
 echo "Installation complete."
 echo Adding $HOME/bin/shell-color-scripts and $HOME/bin/shell-color-scripts/colorscripts to .zshrc and .bashrc
-echo 'PATH=$PATH:~/bin/shell-color-scripts:~/bin/shell-color-scripts/colorscripts' > ~/.zshrc
-echo 'PATH=$PATH:~/bin/shell-color-scripts:~/bin/shell-color-scripts/colorscripts' > ~/.bashrc
+echo 'PATH=$PATH:~/bin/shell-color-scripts:~/bin/shell-color-scripts/colorscripts' >> ~/.zshrc
+echo 'PATH=$PATH:~/bin/shell-color-scripts:~/bin/shell-color-scripts/colorscripts' >> ~/.bashrc
 
 colorscript --help
 
