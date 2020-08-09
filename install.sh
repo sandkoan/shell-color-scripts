@@ -12,7 +12,7 @@ echo
 echo 'Removing any existing installation of shell-color-scripts...'
 
 mkdir -p ~/bin/shell-color-scripts
-echo Making $HOME/bin/shell-color-scripts directory if it does not exist...
+echo Making $HOME/bin/shell-color-scripts directory...
 
 cp -rf colorscripts ~/bin/shell-color-scripts/
 cp colorscript ~/bin/shell-color-scripts/colorscript
