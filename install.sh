@@ -3,6 +3,7 @@
 # Simple installation script
 
 cd $HOME
+rm -rf shell-color-scripts
 git clone https://github.com/sandkoan/shell-color-scripts.git
 cd shell-color-scripts
 
