@@ -1,6 +1,6 @@
 # Shell Color Scripts
 ![colorscripts picture](screenshot.png)
-A collection of color scripts I've written and accumulated over time.
+A collection of color scripts I've  accumulated over time.
 ## Install
 ### Dependencies
 * ```bash```
